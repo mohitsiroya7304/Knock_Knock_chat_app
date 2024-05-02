@@ -1,0 +1,44 @@
+Make a realtime chat application using php with mysql & javascript
+
+my database id password:
+
+    $hostname = "sql312.infinityfree.com";
+    $username = "if0_36335043";
+    $password = "Mohit070304";
+    $dbname = "if0_36335043_knockknockapp_db";
+
+localhost database:
+
+    $hostname = "localhost";
+    $username = "root";
+    $password = "";
+    $dbname = "phpchatapp_db";
+
+PhpChatApp
+
+    -index.php
+    -login.php
+    -header.php
+css
+    -style.css
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+- - - -- - - - - - - - - - - - - - - - - - - - - - - 
+Project Name PhpChatApp
+
+Create Database Name = phpchatapp_db
+
+Table name 1 - users
+                - user_id
+                - unique_id
+                - fname
+                - lname
+                - email
+                - password
+                - img
+                - status (Offline now, Online)
+
+Table name 2 - messages
+                - msg_id
+                - incoming_msg_id
+                - outgoing_msg_id
+                - msg
